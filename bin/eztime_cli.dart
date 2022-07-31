@@ -6,7 +6,7 @@ const help = "eztime-cli - Easily calculate time sums and differences\n"
     "Usage: eztime <time> [+, -] <time>\n\n"
     "<time> can be in 2 formats: HH:MM or HH:MM:SS"
     " second(s)]\n"
-    "A few examples are 12:00:00, 12 hours, 30 minutes, 55s and 12:30:55";
+    "A few examples are 12:00:00, 12:30, 16:40, 9:20:40 and 00:30:15";
 
 Time? parse(String t) {
   List<String> parts = t.split(':');
