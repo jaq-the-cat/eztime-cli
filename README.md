@@ -1,2 +1,3 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+Very simple CLI frontend for [eztime](https://pub.dev/packages/eztime)
+
+Usage: `eztime <HH:MM:SS> [+, -] <HH:MM:SS>`
